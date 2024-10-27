@@ -561,7 +561,7 @@ border: 1px solid #fff;
     fill: #ffffff;
 
 }
-.modal-icon-close {
+.modal-icon-open {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -645,9 +645,7 @@ font-family: "Roboto", sans-serif;
 margin-bottom: 24px;
 }
 .check-icon {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
-    fill: transparent;
+
 }
 .modal-check-text {
         font-size: 12px;
@@ -665,6 +663,8 @@ margin-bottom: 24px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: transparent;
    
  }
 
