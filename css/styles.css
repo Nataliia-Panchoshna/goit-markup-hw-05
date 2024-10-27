@@ -555,16 +555,14 @@ border: 1px solid #fff;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-icon-open {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-open:hover, .modal-open:focus {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
-
 }
-.modal-icon-open {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-title {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -654,7 +652,7 @@ margin-bottom: 24px;
         color: #8e8f99;
         display: flex;
 }
-.modal-check-text span {
+.check-icon {
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -665,9 +663,7 @@ margin-bottom: 24px;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
-   
- }
-
+}
 .modal-check:checked + .modal-check-text span {
   border: none;
   background-color: #404bbf;
