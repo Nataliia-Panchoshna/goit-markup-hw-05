@@ -491,7 +491,7 @@ border: 1px solid #fff;
     gap: 16px;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     border: none;
@@ -544,9 +544,8 @@ border: 1px solid #fff;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    fill: #e7e9fc;
-    stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.1);
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     top: 24px;
     right: 24px;
     position: absolute;
@@ -559,6 +558,7 @@ border: 1px solid #fff;
 .modal-open:hover, .modal-open:focus {
     background-color: #404bbf;
     border: none;
+
 }
 .modal-icon-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -602,7 +602,7 @@ border: 1px solid #fff;
         margin-bottom: 4px;
 }
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 .input-wrapper {
     position: relative;
@@ -624,14 +624,15 @@ border-radius: 4px;
 padding: 8px 16px;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 outline: transparent;
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
 }
 .modal-textarea::placeholder {
-    font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16667;
-        letter-spacing: 0.04em;
-        color: rgba(46, 47, 66, 0.4);
+ 
         
 }
 .modal-textarea:hover, .modal-textarea:focus {
@@ -667,8 +668,8 @@ margin-bottom: 24px;
 
 .modal-check:checked + .modal-check-text span {
   border: none;
-  background-color: #F4F4FD;;
-  fill: #FFFFFF;
+  background-color: #404bbf;
+  fill: #F4F4FD;
 }
 .accept-terms {
     line-height: 1.3;
