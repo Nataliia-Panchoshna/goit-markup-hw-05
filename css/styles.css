@@ -650,8 +650,7 @@ margin-bottom: 24px;
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;
-        display: flex;
-}
+    }
 .check-icon {
     width: 16px;
     height: 16px;
