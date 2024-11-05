@@ -460,9 +460,6 @@ margin-bottom: 16px;
     margin-bottom: 16px;
 }
 .footer-form{
-    width: 453px;
-    height: 80px;
-    margin-left: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -488,9 +485,7 @@ border: 1px solid #fff;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 16px;
     border-radius: 4px;
-    padding: 8px 24px;
     min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
@@ -681,7 +676,7 @@ margin-bottom: 24px;
         flex-direction: row;
         gap: 10px;
         border-radius: 4px;
-        margin: auto 120px 24px 119px;
+        margin: 0 auto;
         padding: 16px 32px 16px 32px;
         min-width: 169px;
         height: 56px;
